@@ -1,0 +1,53 @@
+{
+    "retrieve_config": {
+        "ORG_ALIAS": "",
+        "PACKAGE_NAME": "",
+        "PACKAGE_XML_DIR": "./config/default_package.xml"
+    },
+
+    "deploy_config": {
+        "ORG_ALIAS": "",
+        "DEPLOY_SOURCES_METADATA": ["ApexClass", "ApexTrigger", "AuraDefinitionBundle", "StaticResource"],
+
+        "METADATA_MAPPING": {
+            "ApexClass": "classes",
+            "ApexComponent": "components",
+            "ApexPage": "pages",
+            "ApexTrigger": "triggers",
+            "AppMenu": "appMenus",
+            "ApprovalProcess": "approvalProcesses",
+            "AssignmentRules": "assignmentRules",
+            "AuraDefinitionBundle": "aura",
+            "ConnectedApp": "connectedApps",
+            "CustomPermission": "customPermissions" ,
+            "CustomSite": "sites",
+            "CustomApplication": "applications",
+            "CustomLabels": "translations",
+            "CustomObject": "objects",
+            "CustomObjectTranslation": "objectTranslations" ,
+            "GlobalPicklist": "globalPicklist" ,
+            "GlobalValueSet": "globalValueSets",
+            "CustomTab": "tabs" ,
+            "EmailTemplate": "email",
+            "FlexiPage": "flexipages",
+            "Flow": "Flow",
+            "FlowDefinition": "flowDefinitions",
+            "Group": "groups",
+            "Layout": "layouts",
+            "LightningComponentBundle": "lwc",
+            "PermissionSet": "permissionsets",
+            "PlatformCachePartition": "cachePartitions",
+            "Profile": "profiles",
+            "QuickAction": "quickActions",
+            "RemoteSiteSetting": "remoteSiteSettings",
+            "Role": "roles",
+            "Report": "reports",
+            "ReportType": "reportTypes",
+            "Dashboard": "dashboards",
+            "SharingRules": "sharingRules",
+            "SharingSet": "sharingSets",
+            "StaticResource": "staticresources",
+            "Workflow": "workflows"
+        }
+    }
+}
