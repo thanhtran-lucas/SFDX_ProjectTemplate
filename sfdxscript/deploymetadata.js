@@ -29,7 +29,8 @@ function convertAndDeployMetadata () {
     convertToMetadata()
     .then(() => recheckAndCleanMetadata(deploy_config)
     .then(() => deployToTargetOrg(deploy_config)
-    .then(console.log('DEPLOYING....!'))));
+    .then((result) => console.log(result.stdout))))
+    .catch((error) => console.log(error.stderr));
 }
 
 function convertToMetadata () {
