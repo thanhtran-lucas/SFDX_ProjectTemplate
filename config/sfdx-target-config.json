@@ -47,7 +47,10 @@
             "SharingRules": "sharingRules",
             "SharingSet": "sharingSets",
             "StaticResource": "staticresources",
-            "Workflow": "workflows"
+            "Workflow": "workflows",
+            "CustomField": "CustomField",
+            "ListView": "ListView",
+            "ValidationRule": "ValidationRule"
         }
     }
 }
