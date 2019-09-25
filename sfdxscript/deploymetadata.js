@@ -39,8 +39,10 @@ function convertToMetadata () {
 }
 
 function recheckAndCleanMetadata(deploy_config) {
-    checkAndCleanPackageXml(deploy_config);
-    checkAndCleanFolder(deploy_config);
+    if (deploy_config.DEPLOY_SOURCES_METADATA.length > 0) {
+        checkAndCleanPackageXml(deploy_config);
+        checkAndCleanFolder(deploy_config);   
+    }
     return Promise.resolve();
 }
 
